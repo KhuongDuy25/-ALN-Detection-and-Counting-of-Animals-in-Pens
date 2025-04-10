@@ -1,0 +1,24 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:\Users\KhuongDuy\Desktop\datasets\ga # dataset root dir
+train: C:\Users\KhuongDuy\Desktop\datasets\ga\images\train2024 # train images (relative to 'path') 19 images
+val: C:\Users\KhuongDuy\Desktop\datasets\ga\images\train2024 # val images (relative to 'path') 19 images
+test: # test images (optional)
+
+# Classes
+names:
+  0:  Capybara
+  1:  Cow
+  2:  Deer
+  3:  Elephant
+  4:  Flamingo
+  5:  Giraffe
+  6:  Jaguar
+  7:  Kangaroo
+  8:  Lion
+  9:  Parrot
+  10:  Penguin
+  11:  Rhino
+  12:  Sheep
+  13:  Tiger
+  14:  Turtle
+  15:  Zebra
